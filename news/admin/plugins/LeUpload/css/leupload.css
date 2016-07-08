@@ -1,0 +1,27 @@
+/* +------------------------------------------------------------------------+ */
+/* | Artlantis CMS Solutions                                                | */
+/* +------------------------------------------------------------------------+ */
+/* | LeUpload - Lethe Newsletter Upload Plugin                              | */
+/* | Copyright (c) Artlantis Design Studio 2015. All rights reserved.       | */
+/* | Version       1.0                                                      | */
+/* | Last modified 07.01.2015                                               | */
+/* | Email         developer@artlantis.net                                  | */
+/* | Web           http://www.artlantis.net                                 | */
+/* +------------------------------------------------------------------------+ */
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+html, body{margin:0; padding:0; font-family:'Open Sans',Tahoma;}
+
+.logo-text{font-family:'Yanone Kaffeesatz'; font-size:30px; display:inline-block; min-width:200px; color:#ec5500;}
+.logo-text small{color:#CCC;}
+.logo-text span{font-family:'Open Sans'; font-size:11px; display:block; color:#999;}
+#upload-box {display:inline-block; margin-top:10px; max-height:75px;}
+#upload-box .drag-area{border:3px dashed #CCC; width:200px; display:inline-block; padding:7px; margin:3px; font-weight:600; line-height:1;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+
+#upload-container button{margin-top:20px;}
+
+.dropzone input{
+    display:none;
+}
+

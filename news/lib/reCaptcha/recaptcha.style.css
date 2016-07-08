@@ -1,0 +1,24 @@
+/*  +------------------------------------------------------------------------+ */
+/*  | Artlantis CMS Solutions                                                | */
+/*  +------------------------------------------------------------------------+ */
+/*  | Lethe Newsletter & Mailing System                                      | */
+/*  | Copyright (c) Artlantis Design Studio 2014. All rights reserved.       | */
+/*  | Version       2.0                                                      | */
+/*  | Last modified 20.01.2015                                               | */
+/*  | Email         developer@artlantis.net                                  | */
+/*  | Web           http://www.artlantis.net                                 | */
+/*  +------------------------------------------------------------------------+ */
+
+#recaptcha_widget{max-width:250px;}
+#recaptcha_widget input[type=text]{
+	max-width:250px;
+	margin-right:10px;
+	z-index:0;
+}
+#recaptcha_widget a{text-decoration:none; font-size:16px;}
+#recaptcha_image{background-color:#CCC;max-width:250px;}
+#recaptcha_image img{
+-webkit-border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
+max-width:250px;
+}

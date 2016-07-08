@@ -1,0 +1,33 @@
+/* Ion.CheckRadio
+// Version 1.1.0
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// CheckRadio */
+
+.icr {
+    position: relative;
+    display: inline-block; vertical-align: top;
+    cursor: pointer;
+}
+.icr.disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+    .icr__text {
+        position: relative; display: block;
+    }
+    .icr__radio, .icr__checkbox {
+        position: absolute; display: block;
+        top: 0; left: 0;
+    }
+.icr__hidden {
+    position: relative;
+    display: block;
+    float: left;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    font-size: 0; line-height: 0;
+}

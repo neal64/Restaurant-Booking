@@ -1,0 +1,23 @@
+/* CSS Document
+# +------------------------------------------------------------------------+
+# | Artlantis CMS Solutions                                                |
+# +------------------------------------------------------------------------+
+# | Lethe Newsletter & Mailing System                                      |
+# | Copyright (c) Artlantis Design Studio 2014. All rights reserved.       |
+# | File Version  2.0                                                      |
+# | Last modified 19.11.14                                                 |
+# | Theme         Lethe                                                    |
+# | Email         developer@artlantis.net                                  |
+# | Developer     http://www.artlantis.net                                 |
+# +------------------------------------------------------------------------+
+*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+	input,textarea,select{width:300px; max-width:300px;}
+	.navbar-brand.letheLogoMini{color:#13987E;}
+}
+

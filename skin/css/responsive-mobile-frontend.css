@@ -1,0 +1,244 @@
+/* ### Responsive Max_319px ### */
+@media only screen and (max-width: 319px) {
+	.slide-opacity-caption{
+		display: none;
+	}
+	body .restaurant-main-slider strong{
+		font-size: 2em;
+		line-height: normal;
+	}
+	body .restaurant-main-slider p{
+		display: none;
+	}
+	.slide-opacity-caption .btn{
+		padding: 5px;
+		font-size: 15px;
+	}
+	.img-url-holder .img-url a{
+		font-size: 18px;
+	}
+	h1{
+		font-size: 26px;
+		line-height: normal;
+	}
+
+}
+/* ### Responsive Min_320px Max_479px ### */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.slide-opacity-caption{
+		top: 5%;
+	}
+	body .restaurant-main-slider strong{
+		font-size: 2em;
+		line-height: normal;
+	}
+	body .restaurant-main-slider p{
+		display: none;
+	}
+	.slide-opacity-caption .btn{
+		padding: 5px;
+		font-size: 15px;
+	}
+	.img-url-holder .img-url a{
+		font-size: 22px;
+	}
+	h1{
+		font-size: 28px;
+		line-height: normal;
+	}
+
+}
+/* ### Responsive Min_480px Max_767px ### */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body .restaurant-main-slider strong{
+		font-size: 2em;
+		line-height: normal;
+	}
+	body .restaurant-main-slider p{
+		font-size: 1em;
+	}
+	.img-url-holder .img-url a{
+		font-size: 27px;
+	}
+
+
+
+}
+/* ### Responsive Max_480px ### */
+@media only screen and (max-width: 480px) {
+	.restaurant-call-us,
+	.hello-message {
+	    display: none;
+	}
+	.hover_holder{
+		font-size: 20px;
+	}
+	.index-events.frontend .single_event .red_box {
+	    padding: 5px;
+	}
+	body .boxed-form{
+		width: 100%;
+	}
+
+}
+/* ### Responsive Max_768px ### */
+@media only screen and (max-width: 768px) {
+	.slide-opacity-caption{
+		top: 5%;
+	}
+	.book-a-table.tables-holder.room_nr_1{
+		display: block;
+	}
+	.hide_on_mobiles{
+		display: none !important; 
+	}
+	.index-catering-orders .product_thumbnail{
+		padding: 15px;
+	}
+	.index-catering-orders .product_thumbnail, .index-catering-orders .product_thumbnail a, .index-catering-orders .product_thumbnail img {
+	    display: block;
+	    float: left;
+	    width: 100%;
+	}
+	.restaurant-main-slider strong{
+		font-size: 3em;
+		line-height: normal;
+	}
+	.restaurant-main-slider p{
+		font-size: 1.6em;
+	}
+	.send_catering_order label,body .owl-controls.clickable {
+	    display: none !important;
+	}	
+	.md-content h3{
+		font-size: 1.3em;
+	}
+	.send_catering_order input,.send_catering_order textarea,.send_catering_order .fancy_button {
+	    width: 100%;
+	}	
+	nav.navigation-menu .navbar-brand{
+	  display: block;
+	}
+	nav .restaurant-main-menu li{
+	    width: 100%;
+	}
+	nav .restaurant-main-menu a{
+	    line-height: 46px;
+	}
+	nav .navbar-toggle{
+	    margin-top: 13px;
+	}
+	.hide_on_mobiles {
+	    display: none;
+	}
+	.book-a-table.tables-holder{
+		background: none !important;
+	}
+	.table_nr .general_style_pin {
+	    display: block;
+	    float: left;
+	    margin: 0;
+	    position: initial;
+	}
+	.table_nr {
+	    display: block;
+	    float: left;
+	    margin: 0 auto 11px;
+	    overflow: hidden;
+	    width: 100%;
+	}
+	.table_details {
+	    display: block;
+	    float: left;
+	    font-size: 19px;
+	    color: black;
+	}
+	.onclick_mobile {
+	    font-size: 14px;
+	    cursor: pointer;
+	}
+	.bounce.general_style_pin.onclick_mobile {
+	    position: initial;
+	    transform: none !important;
+	    -o-transform: none !important;
+	    -moz-transform: none !important;
+	    -webkit-transform: none !important;
+	}
+	.general_style_pin.onclick_mobile{
+	    background: none repeat scroll 0 0 #5cb85c;
+	    border-radius: 3px;
+	    -o-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    -webkit-border-radius: 3px;
+	    cursor: pointer;
+	    height: auto;
+	    margin: 0;
+	    position: initial;
+	    width: auto;
+
+	}
+	.container700{
+		width: 100% !important;
+		padding: 1em !important;
+	}
+
+
+
+}
+/* ### Responsive Max_319px ### */
+@media only screen and (min-width: 768px) {
+	.hide_on_pcs{
+		display: none !important;
+	}
+	.restaurant-main-slider strong {
+	    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    color: #ffffff;
+	    display: block;
+	    font-size: 60px;
+	    font-weight: bold;
+	    line-height: normal;
+	    text-align: center;
+	    text-transform: uppercase;
+	    width: 100%;
+	}
+
+
+}
+
+/* ### Responsive Min_768px Max_959px ### */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.send_catering_order label {
+	    display: none;
+	}
+	.send_catering_order input,.send_catering_order textarea {
+	    width: 100%;
+	}
+	.send_catering_order input[type="submit"]{
+		float: left;
+		width: 50%;
+	}
+	.restaurant-main-slider strong{
+		font-size: 3em;
+		line-height: normal;
+	}
+
+
+
+
+
+
+}
+
+/* ### Responsive Max_1024px ### */ 
+@media only screen and (max-width: 1024px) {
+	.index-menus .single_menu_item .pull-right {
+	    float: left !important;
+	}
+
+
+
+
+
+
+
+}

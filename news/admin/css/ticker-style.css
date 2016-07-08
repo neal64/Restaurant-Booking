@@ -1,0 +1,85 @@
+/* Ticker Styling */
+.ticker-wrapper.has-js {
+	width: 400px;
+	height:25px;
+	display: block;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	font-size: 0.75em;
+}
+.ticker {
+	width: 400px;
+	height:25px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.ticker-title {
+	color: #ec5500;
+	font-weight: 600;
+	text-transform: uppercase;
+	height:25px;
+}
+
+.ticker-content {
+	height:25px;
+	margin: 0px;
+	position: absolute;
+	color: #1F527B;
+	font-weight: 400;
+	overflow: hidden;
+	white-space: nowrap;
+	padding-top:5px;
+}
+.ticker-content a:focus {
+	
+}
+.ticker-content a{
+	text-decoration: none;	
+	color: #1F527B;
+}
+.ticker-content a:hover {
+	text-decoration: underline;	
+	color: #0D3059;
+}
+.ticker-swipe {
+	padding-top: 0px;
+	position: absolute;
+	top: 0px;
+	display: block;
+	width: 400px;
+	height: 20px; 
+}
+.ticker-swipe span {
+	margin-left: 1px;
+	height: 20px;
+	width: 7px;
+	display: block;
+}
+
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 45px; 
+	color: #F8F0DB;
+}
+.left .ticker-swipe {
+	/*left: 80px;*/
+}
+.left .ticker-controls, .left .ticker-content, .left .ticker-title, .left .ticker {
+    float: left;
+}
+.left .ticker-controls {
+    padding-left: 6px;
+}
+.right .ticker-swipe {
+	/*right: 80px;*/
+}
+.right .ticker-controls, .right .ticker-content, .right .ticker-title, .right .ticker {
+    float: right;
+}
+.right .ticker-controls {
+    padding-right: 6px;
+}

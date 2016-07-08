@@ -1,0 +1,177 @@
+/* CSS Document
+# +------------------------------------------------------------------------+
+# | Artlantis CMS Solutions                                                |
+# +------------------------------------------------------------------------+
+# | Lethe Newsletter & Mailing System                                      |
+# | Copyright (c) Artlantis Design Studio 2014. All rights reserved.       |
+# | File Version  2.0                                                      |
+# | Last modified 31.10.14                                                 |
+# | Theme         Lethe                                                    |
+# | Email         developer@artlantis.net                                  |
+# | Developer     http://www.artlantis.net                                 |
+# +------------------------------------------------------------------------+
+*/
+@import url(flags.css);
+@import url(//fonts.googleapis.com/css?family=Lobster);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);
+
+html, body{
+margin:0; padding:0; background-color:#EAEEEF
+}
+
+#lethe-notice-box{position:absolute; top:0; left:2px;}
+
+#lethe-head{text-align:center; margin-top:50px;margin-bottom:40px;}
+#lethe-footer p{line-height:5px;color:#2C3E50;}
+#letheLogo{font-size:80px; font-family:'Lobster'; text-decoration:none; line-height:0.9; color:#2C3E50;}
+#letheLogo span{font-size:20px;display:block; padding-left:95px; color:#13987E}
+.navbar-brand.letheLogoMini{font-size:25px; font-family:'Lobster'; text-decoration:none; line-height:0.7; color:#CCC;}
+
+/* Common */
+.inlineIonc .icr__text{margin:0 !important; padding:0 !important; width:auto;}
+.shd-mh{display:inline-block;color:#ccc;}
+#sc-box .well a{margin-right:3px; margin-bottom:3px; display:inline-block; text-decoration:none;}
+.sHide{display:none;}
+.sInline{display:inline-block !important;}
+.sAlignC{text-align:center !important;}
+.txxs{font-size:12px;}
+.bootstrap-filestyle{max-width:300px;}
+.text-white{color:#FFF;}
+.nav-buts{margin-bottom:25px;}
+.autoWidth{width:auto !important;}
+#login-pan{width:300px; margin:auto;}
+.lethe-langs{max-height:400px; overflow:auto;}
+#lethe-pw-reminder{display:none;}
+h1 .help-block{font-size:18px;}
+.reports-graph-area{max-width:1100px;}
+.dashboardWidgets h2,
+.dashboardWidgets h3
+{margin:0; color:#FFF; padding:0;}
+.dashboardScore .countScore, .dashboardScore .count{font-size:20px;}
+.premiumTemp{position:absolute; right:16px; top:0;}
+.dashGeoStat span.badge{margin-left:5px;}
+.dashGeoStat .list-group-item{margin-right:3px; margin-top:3px; font-size:12px;}
+
+.module-splash{
+	text-align:center; margin-right:10px; padding-bottom:10px; margin-bottom:15px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+	
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.35);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.35);
+
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ededed;
+}
+.switch-wrapper {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+}
+
+/* Selectable */
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; }
+#selectable li { margin: 3px; padding: 0.4em; display:inline-block; cursor:pointer; background-color:#ededed;
+border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+border: 0px solid #000000;
+}
+
+/* Sortable */
+#sortable { list-style-type: none; margin: 0; padding: 0; width: auto; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1em; height:55px; padding-top:0;}
+#sortable li span.sortable-button{position:initial; width:30px; display:inline-block; cursor:move;color:#839098; font-size:24px; padding-top:10px;}
+#sortable .sortable-list{padding-top:10px;}
+ .ui-state-highlight {background-color:lightyellow; border:1px solid #FCFF36;}
+ .ui-state-default{background-color:#f2f2f2;border:1px solid #f2f2f2;}
+ 
+ /* Custom Alerts */
+.alert-custom-1{background-color:#6e7696; color:#FFF;}
+.alert-custom-2{background-color:#57464e; color:#FFF;}
+.alert-custom-3{background-color:#5d6163; color:#FFF;}
+.alert-custom-4{background-color:#cc5544; color:#FFF;}
+.alert-custom-5{background-color:#ecb77a; color:#473015;}
+.alert-custom-6{background-color:#d8e6af; color:#444f22;}
+.alert-custom-7{background-color:#dfbd3b; color:#5b4b10;}
+
+/* Custom Table Head */
+.bs-table thead th {
+    background-color: #777;
+    color: white;
+}
+ 
+
+/* Loading Animation */
+.spin{
+     -webkit-transform-origin: 50% 58%;
+     transform-origin:50% 58%;
+     -ms-transform-origin:50% 58%; /* IE 9 */
+     -webkit-animation: spin .7s infinite linear;
+     -moz-animation: spin .7s infinite linear;
+     -o-animation: spin .7s infinite linear;
+     animation: spin .7s infinite linear;
+}
+@-moz-keyframes spin
+{
+    from
+    {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to
+    {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin
+{
+    from
+    {
+        -wekbit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/* Templates */
+.tempPrevs{height:98px; width:245px; overflow:hidden; display:block;}
+.effect6
+{
+-webkit-box-shadow: 0px 10px 5px -7px rgba(138,138,138,1);
+-moz-box-shadow: 0px 10px 5px -7px rgba(138,138,138,1);
+box-shadow: 0px 10px 5px -7px rgba(138,138,138,1);
+}
