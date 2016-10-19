@@ -33,7 +33,7 @@ if(isset($_POST['contact_us'])){
     $query_insert = mysqli_query($con, "insert into contact_us(`name`,`message`,`subject`,`email`,`date`) values('$contact_name','$contact_message','$contact_subject','$contact_email','$date')") or trigger_error("Query Failed: " . mysqli_error($con));
 }
 
-//Contact Open Hours
+//Open hours
 $contact_monday_hours = $information['contact_monday_hours'];
 $contact_tuesday_hours = $information['contact_tuesday_hours'];
 $contact_wednesday_hours = $information['contact_wednesday_hours'];
