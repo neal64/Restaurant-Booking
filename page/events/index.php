@@ -24,5 +24,6 @@ include ('page-content.php');
 require ('../../footer.php');
 ?>
 
+	
 </body>
 </html>
