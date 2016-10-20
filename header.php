@@ -3,6 +3,8 @@
 $informations = mysqli_query($con, "SELECT * FROM informations WHERE contact_id='1'") or trigger_error("Query Failed: " . mysqli_error($con));
 $information = mysqli_fetch_array($informations);
 
+
+
 $host = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 ?>
 
