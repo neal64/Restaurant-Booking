@@ -21,6 +21,5 @@ include ('page-content.php');
 //Get site footer
 require ('../../footer.php');
 ?>
-
 </body>
 </html>
